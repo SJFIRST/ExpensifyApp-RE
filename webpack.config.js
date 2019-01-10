@@ -1,6 +1,6 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-//checnk git
+//checnk git remote is fine?
 module.exports = (env)=>{
   const isProduction = env === 'production';
   const CSSExtract = new ExtractTextPlugin('styles.css');
